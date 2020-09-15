@@ -1,0 +1,139 @@
+html, body, div, a, h2, h3, p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+body {
+    display: grid;
+    background-color: #1c1c1c;
+}
+
+div {
+    display: block;
+}
+
+.wrap-wide {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 12px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 500;
+    color: cornsilk;
+    line-height: 1.6em;
+}
+
+h1 {
+    font-size: 225px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 900;
+    background: -webkit-linear-gradient(cornsilk, #1c1c1c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 56px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 800;
+    color: #1c1c1c;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 800;
+    color: #1c1c1c;
+}
+
+ul {
+    font-size: 12px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 500;
+    line-height: 1.8em;
+}
+
+.headtitle {
+    margin-left: 275px;
+}
+
+.image-me {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.info-section {
+    margin-left: 500px;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.about-me h2, p, button, h3, ul {
+    padding-left: 75px;
+}
+
+.about-me {
+    width: 100%;
+    height: 700px;
+    background-color: cornsilk;
+}
+
+.about-me h2 {
+    padding-top: 75px;
+    margin-bottom: 25px;
+}
+
+.about-me h3 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.about-me p {
+    color: #1c1c1c;
+    width: 50%;
+    text-align: justify;
+}
+
+.my-work-cta {
+    margin-top: 25px;
+    margin-left: 75px;
+    background-color: #1c1c1c;
+    border: none;
+    color: cornsilk;
+    padding: 16px 32px 13px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 500;
+  }
+
+.me2 {
+    margin-top: -20%;
+    position: relative;
+    float: right;
+}
+
+.portfolio {
+    width: 100%;
+    height: 700px;
+    background-color: #1c1c1c;
+}
+
+.portfolio h2 {
+    padding-left: 75px;
+    padding-top: 75px;
+    margin-bottom: 25px;
+    color: cornsilk;
+}
